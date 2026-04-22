@@ -88,8 +88,4 @@ module axi4lite_tb;
 
         #100 $finish;
     end
-    initial begin
-    	$fsdbDumpfile("tt_um_axi4lite_top.fsdb");
-    	$fsdbDumpvars(0,axi4lite_tb);
-    end
 endmodule
